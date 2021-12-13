@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ohmyfood</title>
+    <script src="https://kit.fontawesome.com/468ca7a70b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet" href="sass/loader.css">
+  </head>
+
+ <body>
+    <div class="block__ring">
+      <div class="ring">OH!
+        <span></span>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__main">
+        <p class="header__logo">ohmyfood</p>
+      </div>
+      <div class="header__location">
+        <label for="searchInput"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></label>
+        <input type="search" name="searchInput" id="searchInput" placeholder="Paris, Belleville">
+      </div>
+      <div class="header__explore">
+        <h1 class="main-title">Réservez le menu qui vous convient</h1>
+        <p>Découvrez des restaurants d'exception sélectionnés par nos soins</p>
+        <div class="btn">
+          <a href="#restaurants">Explorer nos restaurants</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="operation">
+        <h2 class="operation__title">Fonctionnement</h2>
+        <ul class="operation__list">
+          <li class="operation__btn"><span>1</span><i class="fas fa-mobile-alt" aria-hidden="true"></i>Choisissez un restaurant
+          </li>
+          <li class="operation__btn"><span>2</span><i class="fas fa-list-ul" aria-hidden="true"></i>Composez votre menu</li>
+          <li class="operation__btn"><span>3</span><i class="fas fa-store" aria-hidden="true"></i>Dégustez au restaurant</li>
+        </ul>
+      </section>
+
+      <section class="restaurants">
+          <div class="restaurants__title " id="restaurants">
+              <h2>Restaurants</h2>
+          </div>
+          <div class="restaurants__block-all">
+              <div class="restaurants__block-column">
+                  <div class="restaurants__block-card box--shadow">
+                      <a href="pages/lapalettedugoût/lapalettedugoût.html">
+                          <div class="restaurants__block-img">
+                              <img class="restaurants__img" src="images/restaurants/la-palette-du-gout.jpg" alt="">
+                              <div class="restaurants__block-news">
+                                  <p class="restaurants__news">Nouveau</p>
+                              </div>
+                          </div>
+                          <div class="restaurants__block-text-icon">
+                              <div class="restaurants__block-text">
+                                  <h4>La palette du goût</h4>
+                                  <p>Mélimontant</p>
+                              </div>
+                              <div class="restaurants__block-icon">
+                                  <div class="icon">
+                                      <svg class="heart-main" viewBox="0 0 512 512" width="100">
+                                        <defs>
+                                          <linearGradient id="mygradient" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+                                          <stop offset="0.14285714285714285"  stop-color="#9356DC"/>
+                                          <stop offset="0.8571428571428571" stop-color="#FF79DA" />
+                                          </linearGradient>
+                                        </defs>
+                                        <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                      </svg>
+                                      <svg class="heart-background" viewBox="0 0 512 512" width="100">
+                                        <defs>
+                                          <linearGradient id="mygradient1" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+                                          <stop offset="0.14285714285714285"  stop-color="#9356DC"/>
+                                          <stop offset="0.8571428571428571" stop-color="#FF79DA" />
+                                          </linearGradient>
+                                        </defs>
+                                        <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                      </svg>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="restaurants__block-card box--shadow">
+                      <a href="pages/lanoteenchantée/lanoteenchantée.html">
+                          <div class="restaurants__block-img">
+                              <img class="restaurants__img" src="images/restaurants/la-note-enchanté.jpg" alt="">
+                              <div class="restaurants__block-news">
+                                  <p class="restaurants__news">Nouveau</p>
+                              </div>
+                          </div>
+                          <div class="restaurants__block-text-icon">
+                              <div class="restaurants__block-text">
+                                  <h4>La note enchantée</h4>
+                                  <p>Charonne</p>
+                              </div>
+                              <div class="restaurants__block-icon">
+                                  <div class="icon">
+                                      <svg class="heart-main" viewBox="0 0 512 512" width="100">
+                                        <defs>
+                                          <linearGradient id="mygradient2" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+                                          <stop offset="0.14285714285714285"  stop-color="#9356DC"/>
+                                          <stop offset="0.8571428571428571" stop-color="#FF79DA" />
+                                          </linearGradient>
+                                        </defs>
+                                        <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                      </svg>
+                                      <svg class="heart-background" viewBox="0 0 512 512" width="100">
+                                        <defs>
+                                          <linearGradient id="mygradient3" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+                                          <stop offset="0.14285714285714285"  stop-color="#9356DC"/>
+                                          <stop offset="0.8571428571428571" stop-color="#FF79DA" />
+                                          </linearGradient>
+                                        </defs>
+                                        <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                      </svg>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+              <div class="restaurants__block-column">
+                  <div class="restaurants__block-card box--shadow">
+                      <a href="pages/àlafrançaise/àlafrançaise.html">
+                          <div class="restaurants__block-img">
+                              <img class="restaurants__img" src="images/restaurants/à-la-française.jpg" alt="">
+                              <div class="restaurants__block-news">
+                                  <p class="restaurants__news">Nouveau</p>
+                              </div>
+                          </div>
+                          <div class="restaurants__block-text-icon">
+                              <div class="restaurants__block-text">
+                                  <h4>À la française</h4>
+                                  <p>Cité Rouge</p>
+                              </div>
+                              <div class="restaurants__block-icon">
+                                  <div class="icon">
+                                      <svg class="heart-main" viewBox="0 0 512 512" width="100">
+                                        <defs>
+                                          <linearGradient id="mygradient4" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+                                          <stop offset="0.14285714285714285"  stop-color="#9356DC"/>
+                                          <stop offset="0.8571428571428571" stop-color="#FF79DA" />
+                                          </linearGradient>
+                                        </defs>
+                                        <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                      </svg>
+                                      <svg class="heart-background" viewBox="0 0 512 512" width="100">
+                                        <defs>
+                                          <linearGradient id="mygradient5" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+                                          <stop offset="0.14285714285714285"  stop-color="#9356DC"/>
+                                          <stop offset="0.8571428571428571" stop-color="#FF79DA" />
+                                          </linearGradient>
+                                        </defs>
+                                        <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                      </svg>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="restaurants__block-card box--shadow">
+                      <a href="pages/ledélicedessens/ledélicedessens.html">
+                          <div class="restaurants__block-img">
+                              <img class="restaurants__img" src="images/restaurants/le-délice-des-sens.jpg" alt="">
+                              <div class="restaurants__block-news">
+                              <p class="restaurants__news">Nouveau</p>
+                              </div>
+                          </div>
+                          <div class="restaurants__block-text-icon">
+                              <div class="restaurants__block-text">
+                                  <h4>Le délice des sens</h4>
+                                  <p>Folie-Méricourt</p>
+                              </div>
+                              <div class="restaurants__block-icon">
+                                  <div class="icon">
+                                      <svg class="heart-main" viewBox="0 0 512 512" width="100">
+                                        <defs>
+                                          <linearGradient id="mygradient6" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+                                          <stop offset="0.14285714285714285"  stop-color="#9356DC"/>
+                                          <stop offset="0.8571428571428571" stop-color="#FF79DA" />
+                                          </linearGradient>
+                                        </defs>
+                                        <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                      </svg>
+                                      <svg class="heart-background" viewBox="0 0 512 512" width="100">
+                                        <defs>
+                                          <linearGradient id="mygradient7" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+                                          <stop offset="0.14285714285714285"  stop-color="#9356DC"/>
+                                          <stop offset="0.8571428571428571" stop-color="#FF79DA" />
+                                          </linearGradient>
+                                        </defs>
+                                        <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                      </svg>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+     <p class="footer__logo">ohmyfood</p>
+     <nav class="footer__nav">
+        <ul class="footer__list">
+            <li><i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a></li>
+            <li><i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="contact@ohmyfood.fr">Contact</a></li>
+        </ul>
+      </nav>
+   </footer>
+  </body>
+</html>
+
