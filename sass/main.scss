@@ -163,6 +163,7 @@ input#searchInput:focus {
   cursor: pointer;
   font-family: Roboto, sans-serif;
   margin: 0;
+  margin-top: 15px;
   padding: 15px;
   position: relative;
   text-align: center;
@@ -239,7 +240,7 @@ input#searchInput:focus {
   
   .operation>h2 {
 
-    margin-left: -150px;
+    margin-left: -165px;
   }
 }
 
@@ -523,12 +524,14 @@ input#searchInput:focus {
 @media screen and (min-width: 575px) {
   .restaurants h2 {
     text-align: center;
+    
   }
 }
 
 @media screen and (min-width: 820px) {
   .restaurants h2 {
     text-align: center;
+    
   }
 }
 
